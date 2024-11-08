@@ -19,5 +19,5 @@ node{
     stage("RunNodeJsApp"){
         sh "chmod u+x ./scripts/runApp.sh"
         sh "./scripts/runApp.sh"
-
+}
 }
